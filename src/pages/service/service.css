@@ -1,0 +1,86 @@
+.service-pg {
+    background-color: #eceaf9;
+    color: #445781;
+}
+
+.service-pg .background-img {
+    background-image: url('./brtcm-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px 0;
+    color: white;
+    margin-bottom: 95px;
+}
+
+.service-pg .background-img h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.service-pg .background-img .desc .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.service-pg .background-img .desc .link:hover {
+    color: #6950ff;
+    transition: 0.7s;
+}
+
+.service-pg .service-lower {
+    text-align: center;
+    padding: 50px 0
+}
+
+.service-pg .content-row .hover-underline-animation {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    padding: 5px;
+    width: 110px;
+    background-color: #6950ff;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+.service-pg .content-row {
+    justify-content: space-around;
+}
+
+.service-pg .content-row .button-div .software {
+    background-color: #6950ff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #6950ff;
+    color: #fff;
+    transition: 1.5s;
+}
+
+.service-pg .content-row .button-div .software:hover {
+    box-shadow: inset 12em 12em 0 0 #39364e;
+    color: #fff;
+}
+
+.service-pg .content-row .button-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.service-pg .content-row h3 {
+    color: #39364e;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.service-pg .content-row p {
+    color: #445781;
+    font-size: 16px;
+    padding: 25px 0;
+}

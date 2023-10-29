@@ -1,0 +1,61 @@
+.cube .rows {
+    justify-content: center;
+}
+
+.cube .column .box-icon {
+    width: 70px;
+    height: 70px;
+    color: #6950ff;
+    background-color: #f3f2fb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.cube .column h4 {
+    font-weight: 700;
+    color: #343333;
+    font-size: 18px;
+}
+
+.cube .column:hover .box-icon {
+    background-color: #6950ff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.cube .column:hover .readMore p {
+    color: #6950ff;
+    cursor: pointer;
+}
+
+.cube .column .readMore p {
+    font-size: 14px;
+}
+
+.cube .column .arrow {
+    margin-left: 5px;
+}
+
+.cube .column:hover .arrow {
+    color: #6950ff;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.cube .column {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 400px;
+    padding: 45px;
+    margin: 10px;
+}
+
+.cube .column .readMore {
+    display: flex;
+    align-items: center;
+}
+

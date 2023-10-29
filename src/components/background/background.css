@@ -1,0 +1,23 @@
+.background {
+    background-image: url('./counter-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 30px 50px;
+    color: #fff;
+}
+
+.background h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.background span {
+    font-size: 18px;
+}
+
+.background .counter {
+    margin-top: 30px;
+}

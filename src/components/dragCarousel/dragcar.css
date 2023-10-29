@@ -1,0 +1,8 @@
+.slider {
+    background-color: #6950ff;
+    padding: 60px 0;
+}
+
+.swiper-backface-hidden .swiper-slide {
+    text-align: center;
+}

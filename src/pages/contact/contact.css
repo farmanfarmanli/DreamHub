@@ -1,0 +1,95 @@
+.contact-pg .background-img {
+    background-image: url('./brtcm-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.contact-pg .background-img h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contact-pg .background-img .desc .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-pg .background-img .desc .link:hover {
+    color: #6950ff;
+    transition: 0.7s;
+}
+
+.contact-pg .contact-content .contact-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-pg .contact-content .contact-upper h2 {
+    color: #39364e;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.contact-pg .contact-content .contact-upper p {
+    color: #39364e;
+    text-align: center;
+}
+
+.contact-pg .contact-content .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-pg .contact-content .contact-info .contact-icon {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+    background-color: #6950ff;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.contact-pg .contact-content .contact-info:hover .contact-icon {
+    transform: rotateY(180deg);
+}
+
+.contact-pg .contact-content .contact-info .contact-article p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #39364e;
+}
+
+.contact-pg .contact-content .contact-info .contact-article h5 {
+    font-size: 17px;
+    color: #39364e;
+}
+
+.contact-pg .contact-content .contact-map {
+    padding: 100px 0;
+    background-color: rgba(105,80,255,0.1607843137254902);
+}
+
+.contact-pg .contact-content .contact-map .map {
+    width: 100%;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-pg .contact-content .contact-map .map {
+        margin-top: 30px;
+    }
+}

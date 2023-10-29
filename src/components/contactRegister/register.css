@@ -1,0 +1,39 @@
+#register-form input {
+    background-color: transparent;
+    border: 1px solid #6950ff;
+    transition: .5s;
+    padding: 10px 25px;
+    color: #0D0E14;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+#register-form textarea {
+    background-color: transparent;
+    border: 1px solid #6950ff;
+    transition: .5s;
+    padding: 15px 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#register-form button {
+    background-color: #6950ff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid #6950ff;
+    color: #fff;
+    transition: 0.7s;
+    margin-top: 30px;
+}
+
+#register-form button:hover {
+    box-shadow: inset 9em 0 0 0  #39364e;
+    color: #fff;
+}
+
+#register-form input:focus {
+    border: 2px solid #4f37d6;
+}

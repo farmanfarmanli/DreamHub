@@ -1,0 +1,145 @@
+.portfolio {
+    text-align: center;
+    padding: 60px;
+}
+
+.portfolio h5 {
+    font-size: 14px;
+    padding: 5px;
+    width: 90px;
+    margin: 0 auto;
+    background-color: #6950ff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.portfolio h2 {
+    color: #39364e;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.portfolio p {
+    color: #445781;
+    margin: 30px 0;
+}
+
+.portfolio .collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 10px;
+}
+
+.portfolio .collage .img-col img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.portfolio .collage .img-col {
+    position: relative;
+}
+
+.portfolio .collage .img-col .img-title {
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    left: 20px;
+    display: none;
+}
+
+.portfolio .collage .img-col .overlay {
+    position: absolute;
+    inset: 0;
+    background: #6950ff;
+    display: none;
+}
+
+.portfolio .collage .img-col:hover .overlay {
+    animation: fade-down;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    display: block;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+@keyframes fade-down {
+    100% { transform: translateY(0); }
+    20% {
+      opacity: 0.3;
+      transform: translateY(-1px);
+    }
+    0% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+  }
+
+
+
+.portfolio .collage .img-col:hover .img-title {
+    animation: bounce-out-down;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    display: block;
+}
+
+@keyframes bounce-out-down {
+    100% { transform: translateY(0); }
+    20% {
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+
+.portfolio .collage .img-col .img-title h4 {
+    background-color: #6950ff;
+    font-size: 16px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    padding: 5px;
+    width: 85px;
+    color: white;
+}
+
+.portfolio .collage .img-col .img-title button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #39364e;
+    background: #fff;
+    border-radius: 0 5px 5px 5px;
+    border: 0;
+    padding: 10px;
+    width: 265px;
+    text-align: start;
+    transition: 0.5s;
+}
+
+.portfolio .collage .img-col .img-title button:hover {
+    color: #6950ff;
+}
+
+@media only screen and (max-width: 991px) {
+    .portfolio .collage img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .portfolio .collage .img-col img {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .portfolio h2 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+}

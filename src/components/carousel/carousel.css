@@ -1,0 +1,23 @@
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+.carousel.carousel-slider {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.carousel .control-dots {
+    position: relative;
+}
+
+.carousel .control-dots .dot {
+    background-color: #612ef3;
+    padding: 5px;
+    opacity: 1;
+}
+
+.carousel .control-dots .dot.selected {
+    background-color: #ff6305;
+}

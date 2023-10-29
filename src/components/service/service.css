@@ -1,0 +1,81 @@
+.service {
+    background-color: #eceaf9;
+    padding: 50px 0;
+}
+
+.service h5 {
+    font-size: 14px;
+    padding: 5px;
+    width: 110px;
+    margin: 0 auto;
+    background-color: #6950ff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.service h3 {
+    color: #39364e;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.service p {
+    color: #445781;
+    font-size: 17px;
+}
+
+.service .rows {
+    justify-content: center;
+}
+
+.service .column .box-icon {
+    width: 70px;
+    height: 70px;
+    color: #6950ff;
+    background-color: #f3f2fb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.service .column:hover .box-icon {
+    background-color: #6950ff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.service .column:hover .readMore p {
+    color: #6950ff;
+    cursor: pointer;
+}
+
+.service .column .readMore p {
+    font-size: 14px;
+}
+
+.service .column .arrow {
+    margin-left: 5px;
+}
+
+.service .column:hover .arrow {
+    color: #6950ff;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.service .column {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 360px;
+    padding: 35px;
+    margin: 6px;
+}
+
+.service .column .readMore {
+    display: flex;
+    align-items: center;
+}

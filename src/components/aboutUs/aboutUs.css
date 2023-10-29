@@ -1,0 +1,86 @@
+.aboutUs {
+    padding: 90px 0;
+}
+
+.aboutUs .right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutUs .right-about h5 {
+    font-size: 14px;
+    padding: 5px;
+    width: 90px;
+    background-color: #6950ff;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aboutUs .right-about h3 {
+    color: #39364e;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.aboutUs .right-about p {
+    color: #445781;
+    font-size: 17px;
+    width: 95%;
+}
+
+.aboutUs .right-about .check-p {
+    color: #445781;
+    font-size: 18px;
+}
+
+.aboutUs .right-about .btn-hover {
+    background-color: #6950ff;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.aboutUs .right-about .btn-hover:hover {
+    box-shadow: inset 0 0 0 2em #39364e;
+    color: #fff;
+}
+
+
+
+.aboutUs .right-about .check {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.aboutUs .right-about .check .checked {
+    padding: 5px 0;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.aboutUs .right-about .check .blue {
+    background-color: #612ef3;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.aboutUs .right-about .check .red {
+    background-color: #ff6305;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.aboutUs .right-about .check .ocean {
+    background-color: #31c6e7;
+    border-radius: 50%;
+    margin-right: 15px;
+}

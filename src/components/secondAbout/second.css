@@ -1,0 +1,120 @@
+.about_Us {
+    padding: 120px 0;
+}
+
+.about_Us .left-about .image-section {
+    position: relative;
+    width: 100%;
+}
+
+.about_Us .left-about .image-section .inner-animation {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: -45px;
+    animation: shaking 20s ease infinite;
+}
+
+.about_Us .left-about .image-section .second-animation {
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+    z-index: -1;
+    animation: shaking 20s ease infinite;
+}
+
+@keyframes shaking {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.about_Us .left-about .double {
+    width: 85%;
+    margin-bottom: 35px;
+    animation: bouncer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bouncer {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.about_Us .right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_Us .right-about h5 {
+    font-size: 14px;
+    padding: 5px;
+    width: 90px;
+    background-color: #6950ff;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.about_Us .right-about h3 {
+    color: #39364e;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.about_Us .right-about p {
+    color: #445781;
+    width: 80%;
+    font-size: 17px;
+}
+
+.about_Us .right-about .check {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.about_Us .right-about .check .checked {
+    padding: 5px 0;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.about_Us .right-about .check .blue {
+    background-color: #612ef3;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.about_Us .right-about .check .red {
+    background-color: #ff6305;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.about_Us .right-about .check .ocean {
+    background-color: #31c6e7 ;
+    border-radius: 50%;
+    margin-right: 15px;
+}

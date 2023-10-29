@@ -1,0 +1,146 @@
+.footer {
+    background: #0e092a;
+    padding: 45px 0;
+    font-size: 16px;
+}
+
+.footer .up-row {
+    border-bottom: 1px solid #43506b;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.footer .up-row .search-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer .up-row .search-section {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+}
+
+.footer .up-row .search-section #search {
+    border-radius: 5px 0 0px 5px;
+    border: 1px solid #e6e6e6;
+    padding: 12px 20px;
+    width: 55%;
+}
+
+.footer .up-row .search-section #search-btn {
+    padding: 13px 10px;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    background: #6950ff;
+    color: #fff;
+}
+
+.footer .up-row ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .up-row ul li .link {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.footer .center-row {
+    padding: 30px 0;
+    color: white;
+    border-bottom: 1px solid #43506b;
+}
+
+.footer .center-row .first-col p {
+    margin: 45px 0;
+    font-size: 16px;
+}
+
+.footer .center-row .first-col .logos {
+    display: flex;
+}
+
+.footer .center-row .first-col .logos .brand-logo {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.footer .center-row .first-col .logos .brand-logo:hover {
+    color: #6950ff;
+    transition: 0.8s;
+    transform: rotate(360deg);
+}
+
+.footer .center-row .second-col h5 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.footer .center-row .second-col ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer .center-row .second-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.footer .center-row .second-col ul li .mar-hover {
+    margin-right: 5px;
+}
+
+.footer .center-row .second-col ul li:hover .mar-hover {
+    color: #6950ff;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.footer .center-row .second-col ul li:hover {
+    color: #6950ff;
+    transition: 0.5s;
+}
+
+.footer .center-row .third-col h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.footer .center-row .third-col ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .center-row .third-col ul li {
+    display: flex;
+    align-items: center;
+}
+
+.footer .center-row .third-col ul li .brand-icons {
+    margin-right: 10px;
+    color: #6950ff;
+    font-size: 24px;
+}
+
+.footer .center-row .third-col ul li p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer .under-row {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer .under-row span {
+    color: #6950ff;
+}
