@@ -12,14 +12,14 @@ const Team = () => {
     <div className='team'>
       <Container>
         <Row>
-          <Col lg={12} data-aos='fade-right'>
+          <Col lg={12} data-aos='zoom-out'>
             <h5>Our Team</h5>
             <h2>Meet Our Creative Team</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> called tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad <br /> minim veniam, quis nostrud stander working process .</p>
           </Col>
         </Row>
-        <Row className='py-3' data-aos='fade-left'>
+        <Row className='py-3' data-aos='zoom-out'>
           <Col lg={3} md={6}>
             <div className="card-box">
               <div className="card-img">

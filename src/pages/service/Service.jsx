@@ -30,7 +30,7 @@ const Service = () => {
       </div>
       <Container>
         <Row>
-          <Col lg={12} className='service-upper' data-aos='fade-down'>
+          <Col lg={12} className='service-upper' data-aos='zoom-in'>
             <Row className='content-row'>
               <Col lg={6}>
                 <h5 class="hover-underline-animation">Our Service</h5>

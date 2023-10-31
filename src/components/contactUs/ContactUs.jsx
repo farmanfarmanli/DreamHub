@@ -12,7 +12,7 @@ const ContactUs = () => {
     <div className='contactUs'>
       <Container>
         <Row className='justify-content-between'>
-          <Col lg={5} data-aos='fade-right'>
+          <Col lg={5} data-aos='zoom-in'>
             <div className='image-sec'>
               <div className='inner-img'>
                 <img src={circle} alt="circle" />
@@ -25,7 +25,7 @@ const ContactUs = () => {
           </Col>
 
 
-          <Col lg={6} className='column' data-aos='fade-left'>
+          <Col lg={6} className='column' data-aos='zoom-out'>
             <div className='contactTitle'>
               <h5>Contact Us</h5>
               <h2>

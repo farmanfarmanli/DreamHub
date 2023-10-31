@@ -8,7 +8,7 @@ const Cube = () => {
         <div className='cube'>
             <Container>
                 <Row className='rows'>
-                    <Col lg={3} md={6} className='column' data-aos='fade-up'>
+                    <Col lg={3} md={6} className='column' data-aos='slide-up'>
                         <FaEnvelopeOpenText className='box-icon' />
                         <h4>Email Marketing</h4>
                         <p>Lorem ipsum dolor sit amet, consecte <br /> adipiscing elit, sed do eiusmod tempor <br /> incidiunt ut labore</p>
@@ -18,7 +18,7 @@ const Cube = () => {
                         </div>
                     </Col>
 
-                    <Col lg={3} md={6} className='column' data-aos='fade-up'>
+                    <Col lg={3} md={6} className='column' data-aos='slide-up'>
                         <FaLaptopCode className='box-icon' />
                         <h4>Fast Performance</h4>
                         <p>Lorem ipsum dolor sit amet, consecte <br /> adipiscing elit, sed do eiusmod tempor <br /> incidiunt ut labore</p>
@@ -28,7 +28,7 @@ const Cube = () => {
                         </div>
                     </Col>
 
-                    <Col lg={3} md={6} className='column' data-aos='fade-down'>
+                    <Col lg={3} md={6} className='column' data-aos='slide-up'>
                         <FaCalculator className='box-icon' />
                         <h4>Cloud Management</h4>
                         <p>Lorem ipsum dolor sit amet, consecte <br /> adipiscing elit, sed do eiusmod tempor <br /> incidiunt ut labore</p>

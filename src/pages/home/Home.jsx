@@ -20,7 +20,7 @@ const Home = () => {
 
   useEffect(()=>{
     Aos.init({
-      duration: 600,
+      duration: 1000,
       easing: 'ease-in-sine',
       disable: 'mobile'
     });

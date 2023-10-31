@@ -14,7 +14,7 @@ const Testimonial = () => {
         <div className='testi'>
             <Container>
                 <Row className='align-items-center d-flex justify-content-between'>
-                    <Col lg={5} className='pb-3' data-aos='fade-right'>
+                    <Col lg={5} className='pb-3' data-aos='flip-up'>
                         <h5>Testimonial</h5>
                         <h3>Some Feedback From Our
                             Super Awesome Clients</h3>
@@ -24,7 +24,7 @@ const Testimonial = () => {
                     </Col>
 
 
-                    <Col lg={6} className='margin position-relative' data-aos='fade-left'>
+                    <Col lg={6} className='margin position-relative' data-aos='flip-up'>
 
                             <div className='animate-img'>
                                 <img src={testi1} alt="test" className='left-img position-absolute' />

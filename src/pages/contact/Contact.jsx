@@ -76,10 +76,10 @@ const Contact = () => {
         <div className='contact-map'>
           <Container>
             <Row>
-              <Col lg={6} data-aos='fade-right'>
+              <Col lg={6} data-aos='zoom-in'>
                 <Register />
               </Col>
-              <Col lg={6}  data-aos='fade-left'>
+              <Col lg={6}  data-aos='zoom-in'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.6948195279383!2d49.7549870079219!3d40.48201606595527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40308f7ea324c9a7%3A0x47e2b3601cdf324c!2zIkJyaWxsaWFudCIgxZ9hZGzEsXEgc2FyYXnEsQ!5e0!3m2!1sen!2saz!4v1698233807054!5m2!1sen!2saz" className='map' title='location'></iframe>
               </Col>
             </Row>
