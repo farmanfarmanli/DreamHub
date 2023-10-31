@@ -22,7 +22,11 @@ const Home = () => {
     Aos.init({
       duration: 1000,
       easing: 'ease-in-sine',
-      disable: 'mobile'
+      disable: 'mobile',
+       function() {
+        var maxWidth = 100;
+        return window.innerWidth < maxWidth;
+      }
     });
 
   }, [])
