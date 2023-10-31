@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './contact.css'
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from 'react-bootstrap';
@@ -6,10 +6,24 @@ import { FaEnvelope, FaPhone, FaMapPin } from 'react-icons/fa'
 import Register from '../../components/contactRegister/Register';
 import Dragcar from '../../components/dragCarousel/Dragcar';
 import Scroll from '../../components/scrollBox/Scroll';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 const Contact = () => {
+
+  useEffect(()=>{
+    Aos.init({
+      offset: 200,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 100,
+      disable: 'mobile'
+    });
+    
+  }, [])
+
   return (
     <div className='contact-pg'>
       <div className='background-img'>
@@ -22,13 +36,13 @@ const Contact = () => {
       <div className="contact-content">
         <Container>
           <Row>
-            <Col lg={12} className='contact-upper'>
+            <Col lg={12} className='contact-upper' data-aos='fade-down'>
               <h2>Contact Us Information.</h2>
               <p>Dui, magna est sagittis cursus. Mattis praesent eu aliquet ullamcorper <br /> consectetur facilisi
                 clean design venenatis, pulvinar varius mattis. Pretium,<br /> sem pretium eu purus id tellus</p>
             </Col>
           </Row>
-          <Row className='my-5 pb-5'>
+          <Row className='my-5 pb-5'  data-aos='fade-up'>
             <Col lg={4} md={6} className='mt-4'>
               <div className="contact-info">
                 <FaPhone className='contact-icon' />
@@ -62,10 +76,10 @@ const Contact = () => {
         <div className='contact-map'>
           <Container>
             <Row>
-              <Col lg={6}>
+              <Col lg={6} data-aos='fade-right'>
                 <Register />
               </Col>
-              <Col lg={6}>
+              <Col lg={6}  data-aos='fade-left'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.6948195279383!2d49.7549870079219!3d40.48201606595527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40308f7ea324c9a7%3A0x47e2b3601cdf324c!2zIkJyaWxsaWFudCIgxZ9hZGzEsXEgc2FyYXnEsQ!5e0!3m2!1sen!2saz!4v1698233807054!5m2!1sen!2saz" className='map' title='location'></iframe>
               </Col>
             </Row>

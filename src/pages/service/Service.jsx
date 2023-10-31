@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './service.css'
 import Cube from '../../components/serviceCubes/Cube'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import Scroll from '../../components/scrollBox/Scroll';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Service = () => {
+
+  useEffect(()=>{
+    Aos.init({
+      offset: 200,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 100,
+      disable: 'mobile'
+    });
+    
+  }, [])
+
   return (
     <div className='service-pg'>
       <div className='background-img'>
@@ -16,7 +30,7 @@ const Service = () => {
       </div>
       <Container>
         <Row>
-          <Col lg={12} className='service-upper'>
+          <Col lg={12} className='service-upper' data-aos='fade-down'>
             <Row className='content-row'>
               <Col lg={6}>
                 <h5 class="hover-underline-animation">Our Service</h5>

@@ -20,13 +20,11 @@ const Home = () => {
 
   useEffect(()=>{
     Aos.init({
-      offset: 200,
-      duration: 1000,
+      duration: 600,
       easing: 'ease-in-sine',
-      delay: 100,
       disable: 'mobile'
     });
-    
+
   }, [])
 
 
