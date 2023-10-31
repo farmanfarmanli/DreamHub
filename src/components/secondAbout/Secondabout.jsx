@@ -12,7 +12,7 @@ const Secondabout = () => {
       <Container>
         <Row>
 
-          <Col lg={5} className='left-about'>
+          <Col lg={5} className='left-about' data-aos='fade-right'>
             <div className="image-section">
               <div className="inner-animation">
                 <img src={animage} alt='bg' />
@@ -24,7 +24,7 @@ const Secondabout = () => {
             </div>
           </Col>
 
-          <Col lg={7} className='right-about'>
+          <Col lg={7} className='right-about' data-aos='fade-left'>
             <h5>About Us</h5>
             <h3>15 Years Of Experiences In <br />
               Social Branding Agency</h3>

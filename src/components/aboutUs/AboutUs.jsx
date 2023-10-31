@@ -9,11 +9,11 @@ const AboutUs = () => {
     <div className='aboutUs'>
       <Container>
         <Row>
-          <Col lg={6} className='leftt'>
+          <Col lg={6} className='leftt' data-aos='fade-right'>
             <MyCarousel />
           </Col>
 
-          <Col lg={6} className='right-about'>
+          <Col lg={6} className='right-about' data-aos='fade-left'>
             <h5>About Us</h5>
             <h3>15 Years Of Experiences In
               Social Branding Agency</h3>

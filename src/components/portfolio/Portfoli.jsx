@@ -13,14 +13,14 @@ const Portfoli = () => {
     <div className='portfolio'>
       <Container>
         <Row>
-          <Col lg={12}>
+          <Col lg={12} data-aos='fade-right'>
             <h5>Portfolio</h5>
             <h2>We build digital brands and experiences</h2>
             <p>Simplified IT is designed to help make sure you and your data is protected
               and your <br /> computer runs its best. The network Access provides is valuable.</p>
           </Col>
 
-          <Col lg={12}>
+          <Col lg={12} data-aos='fade-left'>
             <div className='collage'>
 
               <div className='img-col'>
